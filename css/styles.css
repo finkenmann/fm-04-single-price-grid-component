@@ -93,7 +93,7 @@ a:hover {
 /* Design */
 
 .card {
-  width: min(84vw, 640px);
+  width: min(84vw, 800px);
   margin: 8vw auto;
   background-color: var(--clr-neutral--000);
   border-radius: 0.5rem;
@@ -102,11 +102,11 @@ a:hover {
 }
 
 header {
-  padding:1.5rem;
+  padding: 2.5rem;
 }
 
 .subscription {  
-  padding: 2rem;
+  padding: 2.5rem;
   background-color: var(--clr-primary--500);
 
   color: var(--clr-neutral--000);
@@ -139,7 +139,7 @@ header {
 }
 
 .arguments {
-  padding: 2rem;
+  padding: 2.5rem;
   background-color: var(--clr-primary--300);
 
   color: var(--clr-neutral--100);
