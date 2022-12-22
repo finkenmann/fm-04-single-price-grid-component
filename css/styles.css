@@ -157,6 +157,10 @@ header {
 
 
 @media (min-width: 700px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
 
   .card {
     display: grid;
@@ -164,6 +168,8 @@ header {
     grid-template-areas: 
       "h h"
       "s a" ;
+
+    margin: 2rem auto;
   }
 
   header {
